@@ -44,14 +44,7 @@ export default function Hero() {
         >
           GitHub
         </a>
-        <a
-          href={profile.linkedin}
-          target="_blank"
-          rel="noreferrer"
-          className="rounded-lg border border-zinc-700 px-5 py-2.5 font-medium text-zinc-200 transition hover:border-zinc-500"
-        >
-          LinkedIn
-        </a>
+
       </div>
     </section>
   )

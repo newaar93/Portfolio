@@ -30,7 +30,7 @@ export const projects = [
       'Session history persisted with localStorage — survives refresh',
     ],
     liveUrl: undefined, // set once deployed (Day 3)
-    repoUrl: 'https://github.com/anushnewar93/focusflow',
+    repoUrl: 'https://github.com/newaar93/focusflow',
   },
 ]
 

@@ -29,14 +29,7 @@ export default function Contact() {
         >
           GitHub
         </a>
-        <a
-          href={profile.linkedin}
-          target="_blank"
-          rel="noreferrer"
-          className="rounded-lg border border-zinc-700 px-6 py-3 font-medium text-zinc-200 transition hover:border-zinc-500"
-        >
-          LinkedIn
-        </a>
+
       </div>
     </section>
   )
