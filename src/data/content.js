@@ -15,9 +15,24 @@ export const profile = {
   linkedin: 'https://www.linkedin.com/in/anushnewar93',
 }
 
-// 👇 Your projects will go here on Day 3.
-// Each project is an object — we'll fill these in together.
-export const projects = []
+// 👇 Your projects — each one is an object rendered as a card.
+export const projects = [
+  {
+    title: 'FocusFlow',
+    emoji: '⏱️',
+    description:
+      'A minimal Pomodoro timer with session stats — focus sprints, automatic breaks, and a 7-day history chart, all saved locally in your browser.',
+    status: 'in-progress',
+    tech: ['React', 'JavaScript', 'Tailwind CSS', 'Vite', 'localStorage'],
+    highlights: [
+      'Focus / short break / long break modes with automatic cycling',
+      'Animated SVG progress ring + live countdown in the browser tab',
+      'Session history persisted with localStorage — survives refresh',
+    ],
+    liveUrl: undefined, // set once deployed (Day 3)
+    repoUrl: 'https://github.com/anushnewar93/focusflow',
+  },
+]
 
 export const skillGroups = [
   {
