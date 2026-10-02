@@ -29,7 +29,7 @@ export const projects = [
       'Animated SVG progress ring + live countdown in the browser tab',
       'Session history persisted with localStorage — survives refresh',
     ],
-    liveUrl: undefined, // set once deployed (Day 3)
+       liveUrl: 'https://focusflow-mocha-two.vercel.app',
     repoUrl: 'https://github.com/newaar93/focusflow',
   },
 ]
