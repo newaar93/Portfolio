@@ -15,7 +15,7 @@ export default function Hero() {
       </span>
 
       <h1 className="animate-fade-up delay-100 text-4xl font-bold tracking-tight sm:text-6xl">
-        Hi, I&apos;m {profile.name}.
+                Hi, I&apos;m {profile.name.split(' ')[0]}.
         <span className="mt-2 block text-zinc-400">
           I build{' '}
           <span className="text-violet-400">fast, accessible</span> web apps
