@@ -10,7 +10,7 @@ export const profile = {
   tagline: 'I build fast, accessible web apps with React.',
   location: 'Pokhara, Nepal',
   email: 'anushnewar93@gmail.com',
-  github: 'https://github.com/anushnewar93',
+ github: 'https://github.com/newaar93',
   // 👇 Anush: send me your LinkedIn URL and I'll plug it in
   linkedin: 'https://www.linkedin.com/in/anushnewar93',
 }
@@ -30,7 +30,7 @@ export const projects = [
       'Session history persisted with localStorage — survives refresh',
     ],
        liveUrl: 'https://focusflow-mocha-two.vercel.app',
-    repoUrl: 'https://github.com/newaar93/focusflow',
+   repoUrl: 'https://github.com/newaar93/focusflow',
   },
 ]
 
