@@ -1,32 +1,33 @@
-# React + TypeScript + Vite
+# Anush Pradhan — Frontend Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+My personal portfolio website, designed and built from scratch.
 
-Currently, two official plugins are available:
+🌍 **Live:** [anushpradhan.vercel.app](https://anushpradhan.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Built with
 
-## React Compiler
+- **React** — components, props, conditional rendering
+- **JavaScript (ES2023)**
+- **Tailwind CSS** — utility-first styling, responsive design
+- **Vite** — dev server + production builds
+- **Vercel** — hosting with CI/CD (every `git push` auto-deploys)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the Oxlint configuration
+- One-page layout: Hero, Projects, Skills, About, Contact
+- Project cards with real screenshots, live demo + code links
+- Tech logos via the Simple Icons CDN
+- Single source of truth: all content lives in `src/data/content.js`
+- Dark theme, fully responsive
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## Run locally
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+npm install
+npm run dev
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## What I learned building this
+
+- Structuring an app as small, focused components
+- Keeping content separate from components (data-driven UI)
+- The full git workflow: commit → push → automatic deployment
+- Debugging real build issues (like pinning the Node version for Vercel)
