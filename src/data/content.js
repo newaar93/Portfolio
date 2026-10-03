@@ -4,7 +4,7 @@
 // so you only ever edit ONE place.
 // ============================================================
 
-import focusflowShot from '../assets/focusflow.png'
+import focusflowShot from '../assets/focusflow.webp'
 export const profile = {
   name: 'Anush Pradhan',
   role: 'Frontend Developer',
