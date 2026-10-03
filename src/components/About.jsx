@@ -10,17 +10,18 @@ export default function About() {
 
       <div className="mt-10 grid gap-8 md:grid-cols-[1.5fr,1fr]">
         <div className="space-y-4 text-zinc-400">
-          <p>
-            I&apos;m a frontend developer who loves turning ideas into fast,
-            clean interfaces. My core stack is React and modern JavaScript, and
-            I care a lot about the details — accessibility, performance, and
-            the small UX touches that make an app feel great.
+                    <p>
+            I&apos;m a BCA student at La Grande International College. I got
+            into coding purely out of my own interest — started experimenting
+            on my own, and never stopped building.
           </p>
           <p>
-            Right now I&apos;m looking for an internship where I can contribute
-            to a real product, learn from experienced engineers, and level up
-            every single week.
+            My favorite part of frontend is responsive design: making an
+            interface feel just right on any screen, from phone to desktop. I
+            enjoy the details that make an app look good and work well
+            everywhere.
           </p>
+          
         </div>
 
         <dl className="space-y-3 rounded-2xl border border-zinc-800 bg-zinc-900/50 p-6 text-sm">
