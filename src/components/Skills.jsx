@@ -4,7 +4,7 @@ import { skillGroups } from '../data/content'
 const ICONS = {
   'JavaScript (ES2023)': 'https://cdn.simpleicons.org/javascript/F7DF1E',
   'HTML': 'https://cdn.simpleicons.org/html5/E34F26',
-  'CSS': 'https://cdn.simpleicons.org/css3/1572B6',
+  'CSS': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',
   'React': 'https://cdn.simpleicons.org/react/61DAFB',
   'Tailwind CSS': 'https://cdn.simpleicons.org/tailwindcss/06B6D4',
   'Git & GitHub': 'https://cdn.simpleicons.org/git/F05032',
