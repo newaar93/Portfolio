@@ -13,7 +13,7 @@ export const profile = {
   email: 'anushnewar93@gmail.com',
  github: 'https://github.com/newaar93',
   // 👇 Anush: send me your LinkedIn URL and I'll plug it in
-  linkedin: 'https://www.linkedin.com/in/anushnewar93',
+  linkedin: 'https://www.linkedin.com/in/anush-newar-427866335/',
 }
 
 // 👇 Your projects — each one is an object rendered as a card.
