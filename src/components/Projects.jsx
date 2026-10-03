@@ -29,10 +29,17 @@ export default function Projects() {
             key={project.title}
             className="overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-900/50 transition hover:border-zinc-700"
           >
-            {/* Replace this placeholder with a real screenshot of the project (Day 3) */}
-            <div className="flex aspect-[16/6] items-center justify-center bg-gradient-to-br from-violet-500/15 via-zinc-900 to-zinc-950 text-6xl">
-              {project.emoji}
-            </div>
+                        {project.image ? (
+              <img
+                src={project.image}
+                alt={`${project.title} screenshot`}
+                className="aspect-[16/6] w-full object-cover"
+              />
+            ) : (
+              <div className="flex aspect-[16/6] items-center justify-center bg-gradient-to-br from-violet-500/15 via-zinc-900 to-zinc-950 text-6xl">
+                {project.emoji}
+              </div>
+            )}
 
             <div className="p-6 sm:p-8">
               <div className="flex flex-wrap items-center gap-3">

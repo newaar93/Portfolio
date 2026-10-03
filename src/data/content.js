@@ -4,6 +4,7 @@
 // so you only ever edit ONE place.
 // ============================================================
 
+import focusflowShot from '../assets/focusflow.png'
 export const profile = {
   name: 'Anush Pradhan',
   role: 'Frontend Developer',
@@ -20,6 +21,7 @@ export const projects = [
   {
     title: 'FocusFlow',
     emoji: '⏱️',
+        image: focusflowShot,
     description:
       'A minimal Pomodoro timer with session stats — focus sprints, automatic breaks, and a 7-day history chart, all saved locally in your browser.',
     status: 'live',
