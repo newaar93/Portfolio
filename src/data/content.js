@@ -22,7 +22,7 @@ export const projects = [
     emoji: '⏱️',
     description:
       'A minimal Pomodoro timer with session stats — focus sprints, automatic breaks, and a 7-day history chart, all saved locally in your browser.',
-    status: 'in-progress',
+    status: 'live',
     tech: ['React', 'JavaScript', 'Tailwind CSS', 'Vite', 'localStorage'],
     highlights: [
       'Focus / short break / long break modes with automatic cycling',
