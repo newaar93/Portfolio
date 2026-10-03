@@ -29,8 +29,7 @@ export default function Contact() {
         >
           GitHub
         </a>
-
-            <a
+        <a
           href={profile.linkedin}
           target="_blank"
           rel="noreferrer"

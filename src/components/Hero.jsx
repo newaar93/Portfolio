@@ -15,7 +15,7 @@ export default function Hero() {
       </span>
 
       <h1 className="animate-fade-up delay-100 text-4xl font-bold tracking-tight sm:text-6xl">
-                Hi, I&apos;m {profile.name.split(' ')[0]}.
+        Hi, I&apos;m {profile.name.split(' ')[0]}.
         <span className="mt-2 block text-zinc-400">
           I build{' '}
           <span className="text-violet-400">fast, accessible</span> web apps
@@ -44,17 +44,8 @@ export default function Hero() {
         >
           GitHub
         </a>
-
-                <a
+        <a
           href={profile.linkedin}
           target="_blank"
           rel="noreferrer"
-          className="rounded-lg border border-zinc-700 px-5 py-2.5 font-medium text-zinc-200 transition hover:border-zinc-500"
-        >
-          LinkedIn
-        </a>
-
-      </div>
-    </section>
-  )
-}
+          className="rounded-lg border
